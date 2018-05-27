@@ -3,6 +3,7 @@ body{
   font-size: 20px;
   letter-spacing: 3px;
 }
+/* header */
 header[role="banner"] #logo-main {
   display: block;
   margin-top: 20px;
@@ -28,7 +29,6 @@ header[role="banner"] #logo-main {
   padding-right: 40px;
 }
 #navbar-primary.navbar-default .navbar-nav > li > a {
-
   color: black;
   text-decoration: none;
   position: relative;
@@ -58,12 +58,133 @@ header[role="banner"] #logo-main {
 .navbar-toggle{
   float: none;
 }
+/* banner */
 .responsive-banner{
   padding-left: 50px;
   padding-right: 50px;
   width: 100%;
   height: auto;
 }
+/* work */
+.title{
+  padding-top: 50px;
+  text-align: center;
+}
+.title > a{
+  font-size: 23px;
+  color: black;
+  text-decoration: none;
+  border-bottom: 4px solid #A4D5E9;
+  border-top: 4px solid #A4D5E9;
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.portfolio-menu{
+  padding-top: 40px;
+  text-align: center;
+}
+.portfolio-menu > ul > li{
+  display: inline-block;
+  margin: 0;
+  list-style: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.portfolio-menu > ul > li > a{
+  color: black;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+}
+ol, ul{
+  padding-left: 0px !important;
+}
+#all{
+  position: relative;
+  display: inline-block;
+}
+#all.hover::before, #all.clicked::before{
+  content: "";
+  border-bottom: 4px solid #FFE8BF;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 45%;
+}
+#game{
+  position: relative;
+  display: inline-block;
+}
+#game.hover::before, #game.clicked::before{
+  content: "";
+  border-bottom: 4px solid #FFE8BF;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 45%;
+}
+#installation{
+  position: relative;
+  display: inline-block;
+}
+#installation.hover::before, #installation.clicked::before{
+  content: "";
+  border-bottom: 4px solid #FFE8BF;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 45%;
+}
+#photography{
+  position: relative;
+  display: inline-block;
+}
+#photography.hover::before, #photography.clicked::before{
+  content: "";
+  border-bottom: 4px solid #FFE8BF;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 45%;
+}
+#wearable{
+  position: relative;
+  display: inline-block;
+}
+#wearable.hover::before, #wearable.clicked::before{
+  content: "";
+  border-bottom: 4px solid #FFE8BF;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 45%;
+}
+.portfolio-item{
+  max-width: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.portfolio-item:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.portfolio-item .item{
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+}
+
+
+
+
+
+
+
+
+
 /* start pt to be hamburger */
 @media screen and (max-width:768px) {
   .navbar-default .navbar-toggle{
