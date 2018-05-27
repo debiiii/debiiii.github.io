@@ -19,13 +19,13 @@ header[role="banner"] #logo-main {
 #navbar-primary.navbar-default .navbar-nav {
   width: 100%;
   text-align: center;
+  padding-top: 10px;
 }
 #navbar-primary.navbar-default .navbar-nav > li {
   display: inline-block;
   float: none;
   padding-left: 40px;
   padding-right: 40px;
-  padding-top: 10px;
 }
 #navbar-primary.navbar-default .navbar-nav > li > a {
 
@@ -57,11 +57,40 @@ header[role="banner"] #logo-main {
 }
 .navbar-toggle{
   float: none;
-  margin-right: 0;
 }
 .responsive-banner{
   padding-left: 50px;
   padding-right: 50px;
   width: 100%;
   height: auto;
+}
+/* start pt to be hamburger */
+@media screen and (max-width:768px) {
+  .navbar-default .navbar-toggle{
+    border-color: #FFF !important;
+    margin-right: 7px !important;
+  }
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    border-color: #FFF !important;
+  }
+  .navbar-nav{
+    margin: 0px !important;
+  }
+}
+/* start pt of menu word collapse */
+@media screen and (max-width:551px) {
+  #navbar-primary.navbar-default .navbar-nav > li{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+/* mobileL */
+@media screen and (max-width:425px) {
+  .navbar{
+    margin-bottom: 10px !important;
+  }
+  .responsive-banner{
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 }
