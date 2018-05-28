@@ -318,6 +318,4 @@ $(document).ready(function(){
     $("#photography").addClass("clicked");
     $grid.isotope({filter: '.wearable'});
   });
-
-
 });

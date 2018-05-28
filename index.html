@@ -1,163 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> Debbie Wong </title>
-  <!-- Bootstrap -->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="styles.css">
 
-  <!-- Font -->
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Debbie Wong </title>
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
 </head>
+
 <body>
-  <header role="banner">
-    <img id="logo-main" src="pic/lightLogo.png" alt="light logo" class="responsive-header">
-  <nav id="navbar-primary" class="navbar navbar-default" role="navigation">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse">
+    <header role="banner">
+        <img id="logo-main" src="pic/lightLogo.png" alt="light logo" class="responsive-header">
+        <nav id="navbar-primary" class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-      </div>
-      <div class="collapse navbar-collapse" id="navbar-primary-collapse">
-        <ul class="nav navbar-nav">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  </header>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-primary-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Work</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
     <img id="logo-main" src="pic/lightBanner2.png" alt="light banner" class="responsive-banner">
 
-  <div class="container-fluid">
-    <div class="title">
-      <a> Work </a>
+    <div class="container-fluid">
+        <div class="title">
+            <a> Work </a>
+        </div>
+        <div class="portfolio-menu">
+            <ul>
+                <li data-filter="*"> <a id="all"> #all </a> </li>
+                <li data-filter=".game"> <a id="game"> #game </a> </li>
+                <li data-filter=".installation"> <a id="installation"> #installation </a> </li>
+                <li data-filter=".photography"> <a id="photography"> #photography </a> </li>
+                <li data-filter=".wearable"> <a id="wearable"> #wearable </a> </li>
+            </ul>
+        </div>
+
+        <div class="portfolio-item">
+            <div class="item game installation">
+                <div class="overlayContainer" id="oldDimMasterContainer">
+                    <img src="pic/oldDimMaster.png" width="200px" height="200px">
+                    <div class="overlay">
+                        <div class="name">Old Dim Master</div>
+                        <div class="date">December 2016</div>
+                    </div>
+                </div>
+            </div>
+            <div class="item game">
+                <div class="overlayContainer">
+                    <img src="pic/mulaxy.png" width="200px" height="200px">
+                    <div class="overlay">
+                        <div class="name">Mulaxy</div>
+                        <div class="date">November 2015</div>
+                    </div>
+                </div>
+            </div>
+            <div class="item game">
+                <div class="overlayContainer">
+                    <img src="pic/colorPrism.png" width="200px" height="200px">
+                    <div class="overlay">
+                        <div class="name">Color Prism</div>
+                        <div class="date">December 2016</div>
+                    </div>
+                </div>
+            </div>
+            <div class="item game">
+                <div class="overlayContainer">
+                    <img src="pic/ryb.png" width="200px" height="200px">
+                    <div class="overlay">
+                        <div class="name">RYB</div>
+                        <div class="date">December 2017</div>
+                    </div>
+                </div>
+            </div>
+            <div class="item game">
+                <div class="overlayContainer">
+                    <img src="pic/boYa.png" width="200px" height="200px">
+                    <div class="overlay">
+                        <div class="name">Bo Ya & Zi Qi</div>
+                        <div class="date">December 2017</div>
+                    </div>
+                </div>
+            </div>
+            <div class="item game">
+                <div class="overlayContainer">
+                    <img src="pic/herd.png" width="200px" height="200px">
+                    <div class="overlay">
+                        <div class="name">Herd</div>
+                        <div class="date">In progress</div>
+                    </div>
+                </div>
+            </div>
+            <div class="item game">
+                <div class="overlayContainer">
+                    <img src="pic/coffeeMaker.png" width="200px" height="200px">
+                    <div class="overlay">
+                        <div class="name">Coffee Maker</div>
+                        <div class="date">March 2018</div>
+                    </div>
+                </div>
+            </div>
+            <div class="item wearable">
+                <div class="overlayContainer">
+                    <img src="pic/teaTee.png" width="200px" height="200px">
+                    <div class="overlay">
+                        <div class="name">Tea Tee</div>
+                        <div class="date">December 2017</div>
+                    </div>
+                </div>
+            </div>
+            <div class="item photography">
+                <div class="overlayContainer">
+                    <img src="pic/blue1.jpg" width="200px" height="200px">
+                    <div class="overlay">
+                        <div class="name">Blue</div>
+                        <div class="date">-</div>
+                    </div>
+                </div>
+            </div>
+            <div class="item photography">
+                <div class="overlayContainer">
+                    <img src="pic/catSquare2.png" width="200px" height="200px">
+                    <div class="overlay">
+                        <div class="name">Cat</div>
+                        <div class="date">-</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="oldDimMasterModal" class="modal">
+            <div class="modal-content">
+                <span class="close" id="oldDimMasterClose">&times;</span>
+                <div class="title"> <a> Old Dim Master </a> </div>
+                <br>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/H08nJ8MVciA" allowfullscreen></iframe>
+                </div>
+                <br>
+                <div class="modalTxt"> Type | Installation, game</div>
+                <div class="modalTxt"> Tools | Processing, ReacTIVision, Makey-Makey </div>
+                <div class="modalTxt"> Roles | Group work. Game design, coding</div>
+                <br>
+                <div class="modalTxt"> Old Dim Master is an installation game which aims to enhance the new generation and foreigners’ understanding of Hong Kong’s traditional dim sum culture. It provides simulations of making three old style Chinese dim sum dishes. Players can follow the tutorials and prepare the dim sum dishes steps by steps, as well as learning the history of the dishes after the simulation.  </div>
+            </div>
+        </div>
+
+
+
     </div>
-    <div class="portfolio-menu">
-      <ul>
-        <li data-filter="*"> <a id="all"> #all </a> </li>
-        <li data-filter=".game"> <a id="game"> #game </a> </li>
-        <li data-filter=".installation"> <a id="installation"> #installation </a> </li>
-        <li data-filter=".photography"> <a id="photography"> #photography </a> </li>
-        <li data-filter=".wearable"> <a id="wearable"> #wearable </a> </li>
-      </ul>
-    </div>
-    <div class="portfolio-item">
-      <div class="item game installation">
-        <div class="overlayContainer">
-          <img src="pic/oldDimMaster.png" width="200px" height="200px">
-          <div class="overlay">
-            <div class="name">Old Dim Master</div>
-            <div class="date">December 2016</div>
-          </div>
-        </div>
-      </div>
-      <div class="item game">
-        <div class="overlayContainer">
-          <img src="pic/mulaxy.png" width="200px" height="200px">
-          <div class="overlay">
-            <div class="name">Mulaxy</div>
-            <div class="date">November 2015</div>
-          </div>
-        </div>
-      </div>
-      <div class="item game">
-        <div class="overlayContainer">
-          <img src="pic/colorPrism.png" width="200px" height="200px">
-          <div class="overlay">
-            <div class="name">Color Prism</div>
-            <div class="date">December 2016</div>
-          </div>
-        </div>
-      </div>
-      <div class="item game">
-        <div class="overlayContainer">
-          <img src="pic/ryb.png" width="200px" height="200px">
-          <div class="overlay">
-            <div class="name">RYB</div>
-            <div class="date">December 2017</div>
-          </div>
-        </div>
-      </div>
-      <div class="item game">
-        <div class="overlayContainer">
-          <img src="pic/boYa.png" width="200px" height="200px">
-          <div class="overlay">
-            <div class="name">Bo Ya & Zi Qi</div>
-            <div class="date">December 2017</div>
-          </div>
-        </div>
-      </div>
-      <div class="item game">
-        <div class="overlayContainer">
-          <img src="pic/herd.png" width="200px" height="200px">
-          <div class="overlay">
-            <div class="name">Herd</div>
-            <div class="date">In progress</div>
-          </div>
-        </div>
-      </div>
-      <div class="item game">
-        <div class="overlayContainer">
-          <img src="pic/coffeeMaker.png" width="200px" height="200px">
-          <div class="overlay">
-            <div class="name">Coffee Maker</div>
-            <div class="date">March 2018</div>
-          </div>
-        </div>
-      </div>
-      <div class="item wearable">
-        <div class="overlayContainer">
-          <img src="pic/teaTee.png" width="200px" height="200px">
-          <div class="overlay">
-            <div class="name">Tea Tee</div>
-            <div class="date">December 2017</div>
-          </div>
-        </div>
-      </div>
-      <div class="item photography">
-        <div class="overlayContainer">
-          <img src="pic/blue1.jpg" width="200px" height="200px">
-          <div class="overlay">
-            <div class="name">Blue</div>
-            <div class="date">-</div>
-          </div>
-        </div>
-      </div>
-      <div class="item photography">
-        <div class="overlayContainer">
-          <img src="pic/catSquare2.png" width="200px" height="200px">
-          <div class="overlay">
-            <div class="name">Cat</div>
-            <div class="date">-</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-  </div>
 
 
 
 
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <!-- Custom jQuery -->
-  <script src="myFunction.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-  <!-- Isotope -->
-  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!-- Custom jQuery -->
+    <script src="hashtagFunction.js"></script>
+    <script src="modalFunction.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <!-- Isotope -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
 </html>
