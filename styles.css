@@ -228,15 +228,21 @@ ol, ul{
   padding: 30px 40px 40px 40px;
   width: 85%;
 }
-.close{
-  color: #000;
-  font-size: 40px;
+.closeBtn{
   font-weight: bold;
+  text-align: center;
+  font-size: 30px;
 }
-.close:hover, .close:focus{
-  color: #A4D5E9;
+.closeBtn > a{
+  color: black;
+}
+.closeBtn > a:hover, .closeBtn > a:focus{
+  color: gray;
   text-decoration: none;
   cursor: pointer;
+}
+.modal-content .title{
+  padding-top: 20px;
 }
 
 
