@@ -195,12 +195,12 @@ ol, ul{
 .overlayContainer:hover .overlay{
   opacity: 1;
 }
-.overlay > .name{
+.name{
   font-size: 18px;
   text-align: center;
   padding-top: 12px;
 }
-.overlay > .date{
+.date{
   font-size: 13px;
   text-align: center;
 }
