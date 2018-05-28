@@ -225,7 +225,7 @@ ol, ul{
 .modal-content{
   background-color: white;
   margin: auto;
-  padding: 40px;
+  padding: 30px 40px 40px 40px;
   width: 85%;
 }
 .close{
@@ -238,6 +238,7 @@ ol, ul{
   text-decoration: none;
   cursor: pointer;
 }
+
 
 
 
