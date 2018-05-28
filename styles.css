@@ -189,6 +189,7 @@ ol, ul{
   height: 34%;
   width: 100%;
   opacity: 0;
+  -webkit-transition: .5s ease;
   transition: .5s ease;
   background-color: #A4D5E9;
 }
