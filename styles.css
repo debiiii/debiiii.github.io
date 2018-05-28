@@ -237,7 +237,7 @@ ol, ul{
   color: black;
 }
 .closeBtn > a:hover, .closeBtn > a:focus{
-  color: gray;
+  color: #FFE8BF;
   text-decoration: none;
   cursor: pointer;
 }
