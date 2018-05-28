@@ -162,8 +162,8 @@ ol, ul{
 }
 .portfolio-item{
   max-width: 100%;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 .portfolio-item:after {
   content: '';
@@ -176,6 +176,35 @@ ol, ul{
   height: 200px;
   margin: 30px;
 }
+.overlayContainer {
+  position: relative;
+  width: 100%;
+}
+.overlay{
+  position: absolute;
+  top: 66%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 34%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #A4D5E9;
+}
+.overlayContainer:hover .overlay{
+  opacity: 1;
+}
+.overlay > .name{
+  font-size: 18px;
+  text-align: center;
+  padding-top: 12px;
+}
+.overlay > .date{
+  font-size: 13px;
+  text-align: center;
+}
+
 
 
 
@@ -205,6 +234,14 @@ ol, ul{
     padding-right: 0px;
   }
 }
+/* laptop */
+@media screen and (max-width:1024px) {
+  .portfolio-item{
+    max-width: 100%;
+    margin-left: 100px;
+    margin-right: 60px;
+  }
+}
 /* mobileL */
 @media screen and (max-width:425px) {
   .navbar{
@@ -213,5 +250,26 @@ ol, ul{
   .responsive-banner{
     padding-left: 25px;
     padding-right: 25px;
+  }
+  .portfolio-item{
+    max-width: 100%;
+    margin-left: 65px;
+    margin-right: 40px;
+  }
+}
+/* mobileM */
+@media screen and (max-width:375px) {
+  .portfolio-item{
+    max-width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+/* mobileS */
+@media screen and (max-width:320px) {
+  .portfolio-item{
+    max-width: 100%;
+    margin-left: 15px;
+    margin-right: 40px;
   }
 }
