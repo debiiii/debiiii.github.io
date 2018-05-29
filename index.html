@@ -9,9 +9,10 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
-
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 
 <body>
@@ -30,9 +31,9 @@
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-primary-collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Work</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -42,7 +43,8 @@
     <img id="logo-main" src="pic/lightBanner2.jpg" alt="light banner" class="responsive-banner">
 
     <div class="container-fluid">
-        <div class="title">
+      <!-- Work -->
+        <div class="title" id="work">
             <a> Work </a>
         </div>
         <div class="portfolio-menu">
@@ -333,14 +335,34 @@
                 <a class="next" onclick="catPlusSlides(1)">&#10095;</a>
             </div>
         </div>
-
-        <div class="title">
+        <!-- About -->
+        <div class="title" id="about">
             <a> About </a>
         </div>
-
-
-
+        <img src="pic/dp.jpg" class="center-block" id="dp" width="200px" height="200px">
+        <div class="aboutTxt">
+          <span class="dataType"> string </span> name = <span class="variable"> "Wong Yan Ting, Debbie"</span>;
+          <br>
+          <span class="dataType"> string </span> education = <span class="variable"> "School of Creative Media, City University of Hong Kong"</span>;
+          <br>
+          <span class="dataType"> int </span>year = <span class="variable">3</span>;
+          <br>
+          <span class="dataType"> string</span>[] skills = { <span class="variable">"Ps"</span>, <span class="variable">"Pr"</span>, <span class="variable">"Unity"</span>, <span class="variable">"Processing"</span>, <span class="variable">"p5.js"</span>, <span class="variable">"c++"</span>, <span class="variable">"c#"</span>, <span class="variable">"HTML"</span>, <span class="variable">"CSS"</span>, <span class="variable">"JS"</span> };
+          <br>
+          <span class="dataType"> string</span>[] interests = { <span class="variable">"Baking"</span>, <span class="variable">"Photography"</span>, <span class="variable">"Travel"</span> };
+        </div>
+        <!-- Contact -->
+        <div class="title" id="contact">
+            <a> Contact </a>
+        </div>
+        <div class="contactTxt">
+          <i class="fab fa-instagram fa-lg"></i> <a href="https://www.instagram.com/go2go3ne1/" target="_blank"> go2go3ne1 </a>
+          <br>
+          <i class="far fa-envelope fa-lg"></i> <a href="mailto:debbiewong22@gmail.com" target="_top"> debbiewong22@gmail.com</a>
+        </div>
     </div>
+    <br>
+    <img id="logo-main" src="pic/lightLogo.jpg" alt="light logo" class="responsive-header">
 
 
 

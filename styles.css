@@ -262,9 +262,36 @@ ol, ul{
   color: white;
   cursor: pointer;
 }
-
-
-
+/* about */
+#dp{
+  margin-top: 50px;
+}
+.aboutTxt{
+  font-family: consolas,"courier new",monospace;
+  font-size: 18px;
+  letter-spacing: 0px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.dataType{
+  color: #169694;
+}
+.variable{
+  color: #f37d22;
+}
+.contactTxt{
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.contactTxt > a{
+  color: black;
+}
+.contactTxt > a:hover, a:active, a:visited, a:link{
+  text-decoration: none;
+}
 
 
 
