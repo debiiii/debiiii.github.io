@@ -244,6 +244,24 @@ ol, ul{
 .modal-content .title{
   padding-top: 20px;
 }
+.mySlides{
+  display: none;
+}
+.prev, .next{
+  position: absolute;
+  top: 54%;
+  width: auto;
+  padding: 16px;
+  color: rgba(255,255,255,0.4);
+}
+.next{
+  right: 40px;
+}
+.prev:hover, .next:hover{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
 
 
 
